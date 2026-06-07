@@ -146,6 +146,34 @@ Page {
 
                 onLinkActivated: Qt.openUrlExternally("https://gitlab.com/adelnoureddine/harbour-health")
             }
+
+            SectionHeader {
+                            text: qsTr("Third Party Assets")
+                        }
+
+                        Label {
+                            wrapMode: Text.Wrap
+                            x: Theme.horizontalPageMargin
+                            width: parent.width - ( 2 * Theme.horizontalPageMargin )
+                            horizontalAlignment: Text.AlignHCenter
+                            text: qsTr("Module icons from Material Design Icons (pictogrammers.com) — Apache 2.0 License")
+                            font.pixelSize: Theme.fontSizeSmall
+                            anchors {
+                                horizontalCenter: parent.horizontalCenter
+                            }
+                        }
+
+                        Label {
+                            wrapMode: Text.Wrap
+                            x: Theme.horizontalPageMargin
+                            width: parent.width - ( 2 * Theme.horizontalPageMargin )
+                            horizontalAlignment: Text.AlignHCenter
+                            text: qsTr("Blood Pressure icon from SVG Repo (svgrepo.com) — Public Domain")
+                            font.pixelSize: Theme.fontSizeSmall
+                            anchors {
+                                horizontalCenter: parent.horizontalCenter
+                            }
+                        }
         }
     }
 }
